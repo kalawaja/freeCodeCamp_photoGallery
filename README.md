@@ -300,10 +300,8 @@ Smooth out your images a bit by giving the `.gallery img` selector a `border-rad
 }
 ```
 > **Step 20** <br>
-The `::after` pseudo-element creates an element that is the last child of the selected element. We can use it to add an empty element after the last image. If we give it the same `width` as the images it will push the last image to the left when the gallery is in a two-column layout. Right now, it is in the center because we set `justify-content: center` on the flex container.<br>
-<br>
-> Example:
-> <br>
+The `::after` pseudo-element creates an element that is the last child of the selected element. We can use it to add an empty element after the last image. If we give it the same `width` as the images it will push the last image to the left when the gallery is in a two-column layout. Right now, it is in the center because we set `justify-content: center` on the flex container.<br><br>
+> Example: <br>
 > ```css
 > #styles.css
 > .container::after {
@@ -311,7 +309,6 @@ The `::after` pseudo-element creates an element that is the last child of the se
 >   width: 860px;
 > }
 > ```
-> <br>
 > Create a new selector using an `::after` pseudo-element on the `.gallery` element. Add a `content` property set to an empty string `""` and `350px` set for the `width` property.
 
 ```css
